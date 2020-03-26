@@ -1,0 +1,46 @@
+{
+  "name": "browser-router-observer",
+  "version": "0.0.1",
+  "description": "browser router observer",
+  "main": "dist/bro.min.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooncatchen/browserRouterObserver.git"
+  },
+  "keywords": [
+    "router",
+    "monitor",
+    "javascript",
+    "hash",
+    "history"
+  ],
+  "author": "mooncatchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooncatchen/browserRouterObserver/issues"
+  },
+  "homepage": "https://github.com/mooncatchen/browserRouterObserver#readme",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.0.1",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-typescript": "^4.0.0",
+    "@types/jest": "^25.1.4",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "rollup": "^2.0.2",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}
